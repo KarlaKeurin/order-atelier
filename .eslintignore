@@ -2,6 +2,6 @@
 src/database/migrations
 src/database/seeders
 __tests__
-# jest.config.js
-# build/
+jest.config.js
+build/
 tests

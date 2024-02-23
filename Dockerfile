@@ -14,10 +14,10 @@ COPY --chown=node:node .editorconfig .
 COPY --chown=node:node .eslintignore .
 COPY --chown=node:node .eslintrc.json .
 # fazer na mentoria
-# COPY --chown=node:node .sequelizerc .
-# COPY --chown=node:node tsconfig.json .
+COPY --chown=node:node .sequelizerc .
+COPY --chown=node:node tsconfig.json .
 
 COPY . .
 
-CMD ["npm", "run", "start"]
+# CMD ["npm", "run", "start"]
 
