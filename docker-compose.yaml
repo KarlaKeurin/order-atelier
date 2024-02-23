@@ -40,8 +40,9 @@ services:
       DB_PASSWORD: password
       DB_HOST: db
       DB_PORT: 3306
-      DB_NAME: LaudAtelier
+      DB_NAME: Laudatelier
       JWT_SECRET: secret
+      MYSQL_DATABASE: Laudatelier
 
   # Serviço que irá rodar o banco de dados
   db:
